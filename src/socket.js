@@ -4,8 +4,8 @@ let io;
 
 const conversation = [
   {
-    username: 'coderhouse',
-    body: 'Hola a la comunidad de CH 🖐️.',
+    username: '🤖',
+    body: 'Hola este es un msj automatico.',
   },
 ];
 
