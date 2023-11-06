@@ -1,6 +1,34 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(45deg, #4a97e0, transparent)
+}
 
 .main{
-    width: 600px;
-    height: 500px;
-    background: linear-gradient(45deg, #4a97e0, transparent)
+    
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    background: lightblue;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+#input-message{
+    width: 100%;
+    background: linear-gradient(45deg, #fefeff, transparent);
+}
+
+#form-message{
+    display: flex;
+    width: 100%;
+    /* height: 27px; */
+    background: linear-gradient(45deg, black, transparent);
+    justify-content: flex-end;
+
+}
+
+#log-messages{
+    overflow-y: scroll;
 }
