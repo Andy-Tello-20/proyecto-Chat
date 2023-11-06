@@ -22,13 +22,13 @@
       logMessages.innerText = '';
       conversation.forEach((message) => {
         const p = document.createElement('p');
-        p.innerText = `${message.username}: ${message.body}`;
+        p.innerHTML = `<strong>-${message.username}:</strong> ${message.body}`
         logMessages.appendChild(p);
       });
     });
   
     Swal.fire({
-      title: 'Indentificate por favor 👮',
+      title: 'Ingresa tu nombre',
       input: 'text',
       allowOutsideClick: false,
       inputValidator:(value) => {
